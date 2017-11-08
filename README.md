@@ -9,7 +9,7 @@ STEP4: git push origin master
 #Install the angular-cli-pages Globally
 STEP5: npm i -g angular-cli-ghpages
 #Execute a build 
-STEP6: ng build --prod --base-href='https://murugan425.github.io/angular-app/'
+STEP6: ng build --prod --base-href="https://murugan425.github.io/angular-app/"
 #Trigger the angular-cli-gh command
 STEP7: Execute the command 'ngh'
 #We can merge Step6 & 7 in a single command by adding a script in Package.json
